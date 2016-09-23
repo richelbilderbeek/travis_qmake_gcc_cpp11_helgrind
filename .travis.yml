@@ -1,5 +1,12 @@
 language: cpp
 compiler: gcc
+sudo: require
+
+before_install:
+  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+
+install: sudo apt-get install -qq g++-5
 
 script: 
   - qmake

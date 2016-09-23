@@ -13,5 +13,5 @@ install:
 script: 
   - qmake
   - make
-  - valgrind --tool=helgrind --log-file=helgrind.log travis_qmake_gcc_cpp11_helgrind
+  - valgrind --tool=helgrind --log-file=helgrind.log ./travis_qmake_gcc_cpp11_helgrind
   - cat helgrind.log

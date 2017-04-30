@@ -1,8 +1,9 @@
 # travis_qmake_gcc_cpp11_helgrind
 
-[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
-
-[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind)
+Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
+---|---|---
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind)|[![codecov.io](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind/branch/master)
+develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind)|[![codecov.io](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_helgrind/branch/develop)
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 

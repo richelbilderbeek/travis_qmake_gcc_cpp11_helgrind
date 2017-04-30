@@ -1,13 +1,9 @@
 language: cpp
 compiler: gcc
-sudo: require
-
-before_install:
-  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
+dist: trusty
 
 install: 
-  - sudo apt-get install -qq g++-5
+  # valgrind, for helgrind
   - sudo apt-get install -qq valgrind
 
 script: 

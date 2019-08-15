@@ -1,8 +1,9 @@
 language: cpp
+dist: bionic
 compiler: gcc
-dist: trusty
 
 install: 
+  - sudo apt update -qq
   # valgrind, for helgrind
   - sudo apt-get install -qq valgrind
 
